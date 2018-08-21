@@ -1,5 +1,5 @@
-var PesaPepe = artifacts.require("PesaPepe");
+var Pesa = artifacts.require("Pesa");
 
 module.exports = function(deployer) {
-    deployer.deploy(PesaPepe);
+    deployer.deploy(Pesa);
 };
